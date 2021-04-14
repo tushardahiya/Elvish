@@ -20,14 +20,16 @@
   padding: 1rem;
 }
 
-#button-container {
+#container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 40px;
+  align-items: center;
 }
 
 #buttonTranslate {
   width: 100px;
+  height: 40px;
   font-size: larger;
   background-color: darkgray;
   border: 1px solid black;
